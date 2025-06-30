@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import ContactForm from "@/components/ContactForm";
-import { Instagram, Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { Instagram, Mail, Phone, MapPin, ArrowRight, Linkedin } from "lucide-react";
 
 const Index = () => {
   return (
@@ -199,6 +199,17 @@ const Index = () => {
                     className="hover:text-interactive transition-colors"
                   >
                     @zabdiel.gudino
+                  </a>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Linkedin className="w-5 h-5 text-interactive" />
+                  <a 
+                    href="https://www.linkedin.com/in/zabdiel-gudino-sanchez-5928b630a/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-interactive transition-colors"
+                  >
+                    zabdiel-gudino-sanchez
                   </a>
                 </div>
               </div>
